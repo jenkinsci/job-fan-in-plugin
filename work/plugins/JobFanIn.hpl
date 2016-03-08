@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Group-Id: com.amdocs.digitalservices
+Short-Name: JobFanIn
+Long-Name: JobFanIn
+Plugin-Version: 1.0-SNAPSHOT (private-03/01/2016 15:45-YOGESHLO)
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: Yogesh Lonkar:yogeshlo:yogesh.lonkar@amdocs.com
+Libraries: C:\Users\yogeshlo\mobile_poc\JobFanIn\src\main\resources,C:
+ \Users\yogeshlo\mobile_poc\JobFanIn\target\classes
+Resource-Path: C:\Users\yogeshlo\mobile_poc\JobFanIn\src\main\webapp
+
