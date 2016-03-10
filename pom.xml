@@ -9,8 +9,8 @@
 		<relativePath />
 	</parent>
 	<groupId>org.lonkar</groupId>
-	<artifactId>JobFanIn</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<artifactId>job-fan-in</artifactId>
+	<version>1.1</version>
 	<packaging>hpi</packaging>
 	<properties>
 		<jenkins.version>1.625.3</jenkins.version>
@@ -29,10 +29,10 @@
 		</developer>
 	</developers>
 	<scm>
-	    <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
-	    <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
-	    <url>http://github.com/yogeshlonkar/${project.artifactId}-plugin</url>
-	  </scm>
+		<connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
+		<url>http://github.com/yogeshlonkar/${project.artifactId}-plugin</url>
+	</scm>
 	<licenses>
 		<license>
 			<name>MIT License</name>

@@ -1,5 +1,4 @@
 <?jelly escape-by-default='true'?>
 <div>
-  This plugin allows to trigger build on downstream project after ALL upstream projects are build successfully. It traces upstream projects from DependencyGraph generated at runtime.
-  This plugin has to be used in downstream project specifying upstream dependencies
+  This plugin allows to trigger build on downstream project after ALL upstream projects are build successfuly
 </div>
