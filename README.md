@@ -20,9 +20,4 @@ Installing Plugin Locally
 4. Start/Restart Jenkins
 
 
-Continuous Integration
-----------------------
-After a pull request is accepted, it is run through a [Jenkins job][job] hosted on CloudBees.
-
-
 [maven]: https://maven.apache.org/
