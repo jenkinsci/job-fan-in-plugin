@@ -18,7 +18,7 @@
 		<jenkins-test-harness.version>2.1</jenkins-test-harness.version>
 	</properties>
 	<name>JobFanIn</name>
-	<description>Fan In jobs for upstream dependencies</description>
+	<description>Fan In jobs to downstream project from upstream</description>
 	<inceptionYear>2016</inceptionYear>
 	<url>https://wiki.jenkins-ci.org/display/JENKINS/JobFanIn+Plugin</url>
 	<developers>
