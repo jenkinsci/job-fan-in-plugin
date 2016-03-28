@@ -30,7 +30,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
-		<url>http://github.com/yogeshlonkar/${project.artifactId}-plugin</url>
+		<url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
 	</scm>
 	<licenses>
 		<license>
