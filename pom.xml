@@ -8,7 +8,7 @@
 		<relativePath />
 	</parent>
 	<artifactId>job-fan-in</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 	<properties>
 		<jenkins.version>1.625.3</jenkins.version>
