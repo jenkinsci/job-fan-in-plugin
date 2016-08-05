@@ -217,7 +217,7 @@ public final class FanInReverseBuildTrigger extends Trigger<Job> implements Depe
 	 * @return true of stable and not building
 	 */
 	private boolean isNotBuildingAndStable(Job job) {
-		if (!job.isBuilding()) {
+		if (!job.isBuilding() && !job.isInQueue()) {
 			Result result = job.getLastBuild().getResult();
 			if (result != null && result.isBetterOrEqualTo(threshold)) {
 				return true;
