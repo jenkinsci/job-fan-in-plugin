@@ -29,7 +29,7 @@ THE SOFTWARE.
         <f:textbox autoCompleteDelimChar=","/>
     </f:entry>
     <f:entry title="Watch upstream projects recursively" field="watchUpstreamRecursively" >
-	  <f:checkbox checked="true"/>
+	  <f:checkbox checked="${instance.watchUpstreamRecursively}"/>
 	</f:entry>
 	<f:entry title="">
         <f:radio name="threshold" checked="${instance.threshold==null || instance.threshold.toString()=='SUCCESS'}"
