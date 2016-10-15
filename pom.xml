@@ -8,7 +8,7 @@
 		<relativePath />
 	</parent>
 	<artifactId>job-fan-in</artifactId>
-	<version>1.1.2-SNAPSHOT</version>
+	<version>1.1.2</version>
 	<packaging>hpi</packaging>
 	<properties>
 		<jenkins.version>1.625.3</jenkins.version>
@@ -30,7 +30,7 @@
 		<connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
 		<url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
-	  	<tag>job-fan-in-1.1.0</tag>
+	  	<tag>job-fan-in-1.1.2</tag>
   	</scm>
 	<licenses>
 		<license>
