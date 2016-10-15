@@ -81,6 +81,14 @@ public final class FanInReverseBuildTrigger extends Trigger<Job> implements Depe
 	public String getUpstreamProjects() {
 		return upstreamProjects;
 	}
+	
+	public Result getThreshold() {
+		return threshold;
+	}
+	
+	public boolean isWatchUpstreamRecursively() {
+		return watchUpstreamRecursively;
+	}
 
 	private boolean shouldTrigger(Run upstreamBuild, TaskListener listener) {
 		Jenkins jenkins = Jenkins.getInstance();
