@@ -67,8 +67,8 @@ public final class FanInReverseBuildTrigger extends Trigger<Job> implements Depe
 	private String upstreamProjects;
 	private final boolean watchUpstreamRecursively;
 	private final Result threshold;
-	private ArrayList<Job> upsteamProjects;
-	private DependencyGraph dependencyGraph;
+	private transient ArrayList<Job> upsteamProjects;
+	private transient DependencyGraph dependencyGraph;
 
 	@DataBoundConstructor
 	public FanInReverseBuildTrigger(String upstreamProjects, boolean watchUpstreamRecursively, Result threshold) {
